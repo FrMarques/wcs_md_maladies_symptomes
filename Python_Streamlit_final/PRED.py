@@ -7,9 +7,9 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import GridSearchCV
 
 # Charger les fichiers CSV
-df = pd.read_csv('ML_EDA.csv')
-df2 = pd.read_csv('ML_EDA.csv')
-precautions_df = pd.read_csv("Disease precaution.csv")
+df = pd.read_csv('https://raw.githubusercontent.com/FrMarques/wcs_md_maladies_symptomes/refs/heads/main/Python_Streamlit_final/ML_EDA.csv')
+df2 = pd.read_csv('https://raw.githubusercontent.com/FrMarques/wcs_md_maladies_symptomes/refs/heads/main/Python_Streamlit_final/ML_EDA.csv')
+precautions_df = pd.read_csv("https://raw.githubusercontent.com/FrMarques/wcs_md_maladies_symptomes/refs/heads/main/Python_Streamlit_final/Disease%20precaution.csv")
 
 # Nettoyage des données (similaire à votre code)
 df = df.drop(columns=['Disease'])
